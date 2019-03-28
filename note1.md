@@ -49,7 +49,13 @@ Once you know what type of insights are in your data there is almost always a si
 **GO/SO**
 ---------
 
-[The MISO Sequence Ontology Browser](http://www.sequenceontology.org/browser/obob.cgi) [GitHub - The-Sequence-Ontology/SO-Ontologies: Collect of SO Ontologies](https://github.com/The-Sequence-Ontology/SO-Ontologies) [QuickGO](https://www.ebi.ac.uk/QuickGO/) [GeneCards - Human Genes | Gene Database | Gene Search](https://www.genecards.org/)
+[The MISO Sequence Ontology Browser](http://www.sequenceontology.org/browser/obob.cgi)
+
+[GitHub - The-Sequence-Ontology/SO-Ontologies: Collect of SO Ontologies](https://github.com/The-Sequence-Ontology/SO-Ontologies)
+
+[QuickGO](https://www.ebi.ac.uk/QuickGO/)
+
+[GeneCards - Human Genes | Gene Database | Gene Search](https://www.genecards.org/)
 
 “The **Sequence Ontology** (SO): a vocabulary for information related to sequence features. The **Gene Ontology** (GO), a vocabulary for information related to gene functions.”
 
@@ -119,7 +125,11 @@ Functional analysis （algorithms）
 
 **Functional analysis / Pathway analysis**
 
-\[image:BC26FE9D-9E56-4FD2-B1FD-35D4683FDA0E-2417-00002FECD840C738/2013053-919e156c6694b9fc.png\]
+``` r
+knitr::include_graphics(c('images/a.png'))
+```
+
+<img src="images/a.png" width="2043" />
 
 “An **Over-Representation Analysis** (ORA) attempts to find representative functions of a list of genes.”
 
