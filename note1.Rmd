@@ -1,8 +1,13 @@
-# The Biostar Handbook: A Beginner's Guide to Bioinformatics[1]
+---
+title: "The Biostar Handbook: A Beginner's Guide to Bioinformatics[1]"
+output: github_document
+---
 
-#course
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-1. **Bioinformatics**
+## **Bioinformatics**
 
 **Bioinformatics is a data science** that investigates how information is stored within and processed by living organisms.
 
@@ -20,7 +25,7 @@ Data management and analysis are meaningless without accurate and insightful int
  
 [[随记 “生物信息学”]]
 
-2. **Organizing project**
+## **Organizing project**
 
 ```
 mkdir -p bin src doc results data genome
@@ -28,14 +33,14 @@ mkdir -p bin src doc results data genome
 
 [[Organizing projects]]
 
-3. **Starting an analysis**
+## **Starting an analysis**
 
 	* download just a subset of the data
 	* build random samples
 	* use a segment of the target genome
 	* generate data with known properties
 
-4. **Data reproducibility**
+## **Data reproducibility**
 
 **your analysis is reproducible if and only if you too are able to reproduce it many times over with ease (and others can reproduce it as well)**
 
@@ -45,7 +50,7 @@ within the scientific paper the long and branching chains of decisions and actio
 
 Once you know what type of insights are in your data there is almost always a simpler and more efficient method to find them. (**there is always existing alternatives**)
 
-5. **GO/SO**
+## **GO/SO**
 
 [The MISO Sequence Ontology Browser](http://www.sequenceontology.org/browser/obob.cgi)
 [GitHub - The-Sequence-Ontology/SO-Ontologies: Collect of SO Ontologies](https://github.com/The-Sequence-Ontology/SO-Ontologies)
@@ -118,18 +123,18 @@ What a piece of DNA does: functional analyses.”
 
 **then keep searching**
 
-6. Data format(1)
+## Data format(1)
 
 **obo** : “The obo format is plain text and is NOT column oriented. ” 
 **GAF** ：GO Annotation File
 
-7. Functional analysis （algorithms）
+## Functional analysis （algorithms）
 
 [Ten Years of Pathway Analysis: Current Approaches and Outstanding Challenges](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002375)
 
 **Functional analysis / Pathway analysis**
 
-![](The%20Biostar%20Handbook:%20A%20Beginner's%20Guide%20to%20Bioinformatics%5B1%5D/2013053-919e156c6694b9fc.png)
+[image:BC26FE9D-9E56-4FD2-B1FD-35D4683FDA0E-2417-00002FECD840C738/2013053-919e156c6694b9fc.png]
 
 “An **Over-Representation Analysis** (ORA) attempts to find representative functions of a list of genes.”
 
@@ -170,7 +175,7 @@ What a piece of DNA does: functional analyses.”
 
 **基于通路拓扑学的方法**
 
-8. Functional analysis （tools）
+## Functional analysis （tools）
 
 “Gene set enrichment analysis” refers to the process of discovering the common characteristics potentially present in a list of genes.”
 
@@ -186,7 +191,7 @@ What a piece of DNA does: functional analyses.”
 **enrichDAVID: DAVID富集分析**
 [clusterProfiler](https://guangchuangyu.github.io/software/clusterProfiler/)
 
-9. Database
+## Database
 
 [International Nucleotide Sequence Database Collaboration | INSDC](http://www.insdc.org/)
 
@@ -215,7 +220,7 @@ USCS[UCSC Genome Browser Home](https://genome.ucsc.edu/index.html)
 
 **use a biological meaning name**
 
-10. Data submission
+## Data submission
 
 **Sequence Read Archive (SRA)**: raw sequence reads from NGS
 **Gene Expression Omnibus (GEO)**: functional genomic data like RNASeq, ChIP-seq etc
@@ -228,7 +233,7 @@ Metagenomes
 **GenBank**
 Genomes
 
-11. Download reference genomic data
+## Download reference genomic data
 
 NCBI web:  [https://www.ncbi.nlm.nih.gov/](https://link.jianshu.com/?t=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2F)  
 NCBI FTP:  [ftp://ftp.ncbi.nlm.nih.gov/](https://link.jianshu.com/?t=ftp%3A%2F%2Fftp.ncbi.nlm.nih.gov%2F)  
