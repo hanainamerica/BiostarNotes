@@ -1,0 +1,56 @@
+<Run accession="SRR1553610" spot_count="219837" base_count="44407074" base_count_bio="44407074" cmp_base_count="44407074">
+  <Member member_name="A" spot_count="219837" base_count="44407074" base_count_bio="44407074" cmp_base_count="44407074" library="NM042.3_r1" sample="NM042.3_r1"/>
+  <Size value="24940700" units="bytes"/>
+  <AlignInfo>
+  </AlignInfo>
+  <QualityCount>
+    <Quality value="2" count="10625034"/>
+    <Quality value="5" count="32319"/>
+    <Quality value="6" count="19302"/>
+    <Quality value="7" count="59898"/>
+    <Quality value="8" count="64340"/>
+    <Quality value="9" count="16649"/>
+    <Quality value="10" count="69974"/>
+    <Quality value="11" count="16943"/>
+    <Quality value="12" count="32543"/>
+    <Quality value="13" count="17576"/>
+    <Quality value="14" count="15896"/>
+    <Quality value="15" count="104797"/>
+    <Quality value="16" count="46497"/>
+    <Quality value="17" count="71027"/>
+    <Quality value="18" count="93656"/>
+    <Quality value="19" count="59225"/>
+    <Quality value="20" count="208389"/>
+    <Quality value="21" count="53511"/>
+    <Quality value="22" count="99178"/>
+    <Quality value="23" count="211361"/>
+    <Quality value="24" count="221444"/>
+    <Quality value="25" count="219366"/>
+    <Quality value="26" count="276627"/>
+    <Quality value="27" count="408456"/>
+    <Quality value="28" count="178196"/>
+    <Quality value="29" count="453004"/>
+    <Quality value="30" count="643473"/>
+    <Quality value="31" count="1195279"/>
+    <Quality value="32" count="662412"/>
+    <Quality value="33" count="2083024"/>
+    <Quality value="34" count="2018065"/>
+    <Quality value="35" count="8653053"/>
+    <Quality value="36" count="1237497"/>
+    <Quality value="37" count="2701757"/>
+    <Quality value="38" count="1264232"/>
+    <Quality value="39" count="2809650"/>
+    <Quality value="40" count="2295168"/>
+    <Quality value="41" count="5168256"/>
+  </QualityCount>
+  <Databases>
+    <Database>
+      <Table name="SEQUENCE">
+        <Statistics source="meta">
+          <Rows count="219837"/>
+          <Elements count="44407074"/>
+        </Statistics>
+      </Table>
+    </Database>
+  </Databases>
+</Run>
