@@ -1,6 +1,6 @@
 ########################################
 # Program: dreg
-# Rundate: Sat 30 Mar 2019 13:09:42
+# Rundate: Mon  1 Apr 2019 13:18:51
 # Commandline: dreg
 #    -filter
 #    -pattern ATGAAGATTA
