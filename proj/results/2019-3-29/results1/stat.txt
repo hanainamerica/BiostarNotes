@@ -1,4 +1,0 @@
-file                                           format  type     num_seqs      sum_len  min_len   avg_len    max_len
-../../data/2019-3-29/duplicated-reads.fq.gz    FASTQ   DNA        15,000    1,515,000      101       101        101
-../../data/2019-3-29/viral.1.1.genomic.fna.gz  FASTA   DNA         8,081  213,551,553      200  26,426.4  2,243,109
-../../data/2019-3-29/viral.1.protein.faa.gz    FASTA   Protein   254,906   64,515,714        8     253.1      8,573

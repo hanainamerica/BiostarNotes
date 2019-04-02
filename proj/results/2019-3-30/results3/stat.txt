@@ -1,2 +1,0 @@
-file                           format  type  num_seqs    sum_len  min_len   avg_len  max_len
-../../data/2019-3-30/ebola.fa  FASTA   DNA        249  4,705,429   18,613  18,897.3   18,959
